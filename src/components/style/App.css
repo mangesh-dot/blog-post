@@ -1,0 +1,45 @@
+.home-container {
+  text-align: center;
+  padding: 50px;
+}
+
+.home-button {   /* button style */
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.blog-container {
+  padding: 20px;
+}
+
+.blog-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.blog-card {               /* card style */
+  width: 300px;
+  text-decoration: none;
+  color: black;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.blog-image {
+  width: 100%; 
+  height: 200px; 
+  object-fit: cover; /* making the image fills the area */
+  border-radius: 10px; 
+  transition: transform 0.3s ease-in-out; /*hover effect */
+}
+
+.blog-image:hover {
+  transform: scale(1.05); /* zoom effect on hover */
+}
